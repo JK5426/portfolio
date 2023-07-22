@@ -1,0 +1,42 @@
+body {
+  font-family: "Ubuntu", sans-serif;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-content: center;
+}
+
+.main-heading {
+  text-transform: uppercase;
+  color: rgb(231, 117, 10);
+}
+.secondary-heading {
+  font-size: medium;
+  color: rgb(255, 0, 157);
+}
+img {
+  mix-blend-mode: multiply;
+  height: 300px;
+  object-fit: cover;
+}
+.project {
+  align-self: center;
+}
+
+.project-heading > a {
+  color: cadetblue;
+  text-decoration: none;
+  font-size: larger;
+}
+
+.footer > a {
+  color: black;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.footer {
+  align-self: center;
+}
